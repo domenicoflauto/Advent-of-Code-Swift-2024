@@ -50,8 +50,6 @@ struct Day01: AdventDay {
       return similarityScore
     }
     
-    var similarityScore = 0
-
     return sumOfSimilarities(from: leftList, in: rightList)
   }
 }
