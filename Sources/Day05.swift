@@ -137,7 +137,7 @@ struct Day05: AdventDay {
             return (correctedPages, wasCorrected)
         }
 
-    func checkCorrectPageUpdates(in pageList: [Int]) -> Int {
+    func checkCorrectPageUpdates(in pageList: [Int]) -> Int? {
             let (correctedPages, wasCorrected) = correctPageOrder(in: pageList)
             
             // Verify if the corrected pages comply with the rules
